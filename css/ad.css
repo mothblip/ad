@@ -1,0 +1,46 @@
+/*images*/ 
+
+.cover {
+	width: 336px;
+	height: 280px;
+	background: url("../images/Stabby.jpg") no-repeat center;
+	background-size: cover;
+	position: absolute;
+	font-family: Pimpit;
+}
+
+.container{ 
+	width: 336px;
+	height: 280px;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+ }
+
+/*Text*/
+
+.title { 
+	margin-top: 10px;
+	margin-left: 10px;
+	color: orange;
+
+ }
+
+.text { 
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+@font-face {
+	font-family: 'Pimpit';
+	src: url(../fonts/Ribbon.ttf);
+}
+
+.link { 
+	position: absolute;
+	left: 29%;
+	margin-top: 170px;
+	display: block;
+	border: solid;
+
+ }
